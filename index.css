@@ -1,0 +1,138 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+
+.navbar {
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0; 
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-brand span.go {
+    color: #4bb74f; 
+}
+
+.navbar-brand span.gaga {
+    color: #4d4d4d; 
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #4d4d4d; 
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #36b72d; 
+}
+
+.hero-section {
+    background-image: url('https://wallpaperaccess.com/full/1431600.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+
+.hero-text {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #f0f0f0; 
+}
+
+/* Search Form */
+.search-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: -50px auto 0; 
+}
+
+.search-form .form-group {
+    margin-bottom: 20px;
+}
+
+.search-form label {
+    font-weight: 500;
+    color: #4d4d4d; 
+}
+
+.search-form .form-control {
+    border: 1px solid #e0e0e0; 
+    border-radius: 5px;
+}
+
+.search-form .form-control:focus {
+    border-color: #36b72d; 
+    box-shadow: none; 
+}
+
+.search-form .btn {
+    background-color: #36b72d; 
+    color: white;
+    font-weight: 500;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-form .btn:hover {
+    background-color: #2a9e3d;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+}
+
+.star-rating label {
+    color: #4d4d4d; 
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.star-rating i {
+    color: gold; 
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0; 
+}
+
+.footer p {
+    color: #4d4d4d; 
+    font-size: 0.9rem;
+}
